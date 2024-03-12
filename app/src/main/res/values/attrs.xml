@@ -1,0 +1,445 @@
+<resources>
+
+    <attr name="checkMarkGravity">
+        <flag name="end" value="0x00800005" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+    </attr>
+
+    <attr name="collapsedToolbarLayoutStyle" format="reference" />
+    <attr name="round_and_bgColor" format="string|integer|color|reference" />
+    <attr name="cardBgColor" format="string|integer|color|reference" />
+    <attr name="goToTopStyle" format="reference" />
+    <attr name="roundedCornerColor" format="color" />
+    <attr name="listDividerColor" format="color" />
+    <attr name="switchDividerColor" format="color" />
+    <attr name="primaryTextColor" format="string|integer|color|reference" />
+    <attr name="secondaryTextColor" format="color" />
+    <attr name="buttonCornerRadius" format="dimension" />
+    <attr name="tabLayoutStyle" format="reference" />
+
+    <attr name="seslSwitchBarStyle" format="reference" />
+
+    <attr name="searchViewIconColor" format="color" />
+    <attr name="searchViewTextColor" format="color" />
+    <attr name="searchViewHintTextColor" format="color" />
+
+    <attr name="spinnerDropdownTextColor" format="reference|color" />
+
+    <attr name="useDisabledAlpha" format="boolean" />
+
+    <attr name="ringtonePreferenceStyle" format="reference" />
+    <attr name="seekBarDialogPreferenceStyle" format="reference" />
+
+    <attr name="seslDialogDivderColor" format="reference|color" />
+    <attr name="colorPickerEmptySlotColor" format="reference|color" />
+    <attr name="colorPickerSelectedItemTextColor" format="reference|color" />
+    <attr name="colorPickerStrokeColor" format="reference|color" />
+
+    <attr name="progressLayout" format="reference" />
+    <attr name="horizontalProgressLayout" format="reference" />
+
+    <attr name="roundedCorners"  format="integer">
+        <flag name="all" value="0x0000000f" />
+        <flag name="bottom_left" value="0x00000004" />
+        <flag name="bottom_right" value="0x00000008" />
+        <flag name="none" value="0x00000000" />
+        <flag name="top_left" value="0x00000001" />
+        <flag name="top_right" value="0x00000002" />
+    </attr>
+    <attr name="addDivider" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="titleText" format="string" />
+    <attr name="subtitle" format="string" />
+    <attr name="summaryText" format="string" />
+    <attr name="summaryHighlight" format="boolean" />
+    <attr name="layout_isTitleCustom" format="boolean" />
+
+    <attr name="progressActivatedColor" format="reference|color" />
+    <attr name="progressNormalColor" format="reference|color" />
+
+    <declare-styleable name="RoundFrameLayout">
+        <attr name="roundedCorners" />
+    </declare-styleable>
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="roundedCorners" />
+    </declare-styleable>
+    <declare-styleable name="RoundNestedScrollView">
+        <attr name="roundedCorners" />
+    </declare-styleable>
+    <declare-styleable name="SwitchBar">
+        <attr name="seslSwitchBarBackgroundColor" format="color" />
+        <attr name="seslSwitchBarBackgroundActivatedColor" format="color" />
+        <attr name="seslSwitchBarTextActivatedColor" format="color" />
+        <attr name="seslSwitchBarTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPickerPreference">
+        <attr name="showAlphaSlider" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="InsetPreferenceCategory">
+        <attr name="height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SeslAppBarLayout">
+        <attr name="elevation"/>
+        <attr name="android:background"/>
+        <attr name="expanded" format="boolean"/>
+        <attr name="android:keyboardNavigationCluster"/>
+        <attr name="android:touchscreenBlocksFocus"/>
+        <attr name="liftOnScroll" format="boolean"/>
+        <attr name="liftOnScrollTargetViewId" format="reference"/>
+        <attr name="statusBarForeground" format="color"/>
+        <attr name="sesl_layout_heightPercent" format="float" />
+        <attr name="android:paddingBottom"/>
+    </declare-styleable>
+    <declare-styleable name="SeslAppBarLayout_Layout">
+        <attr name="layout_scrollFlags" />
+        <attr name="layout_scrollInterpolator" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="SeslCheckedTextView">
+        <attr name="android:checked" />
+        <attr name="android:checkMark" />
+        <attr name="android:checkMarkTint" />
+        <attr name="android:checkMarkTintMode" />
+        <attr name="checkMarkGravity" />
+    </declare-styleable>
+    <declare-styleable name="SeslCollapsingToolbarLayout">
+        <attr name="expandedTitleMargin" format="dimension"/>
+        <attr name="expandedTitleMarginStart" format="dimension"/>
+        <attr name="expandedTitleMarginTop" format="dimension"/>
+        <attr name="expandedTitleMarginEnd" format="dimension"/>
+        <attr name="expandedTitleMarginBottom" format="dimension"/>
+        <attr name="expandedTitleTextAppearance" format="reference"/>
+        <attr name="extendTitleEnabled" format="boolean" />
+        <attr name="extendTitleTextAppearance" format="reference" />
+        <attr name="extendSubTitleTextAppearance" format="reference" />
+        <attr name="collapseTitleTextAppearance" format="reference" />
+        <attr name="collapsedTitleTextAppearance" format="reference"/>
+        <attr name="contentScrim" format="color"/>
+        <attr name="statusBarScrim" format="color" />
+        <attr name="toolbarId" format="reference"/>
+        <attr name="scrimVisibleHeightTrigger" format="dimension"/>
+        <attr name="scrimAnimationDuration" format="integer"/>
+        <attr name="collapsedTitleGravity" />
+        <attr name="expandedTitleGravity" />
+        <attr name="titleEnabled" format="boolean"/>
+        <attr name="title"/>
+        <attr name="subtitle" />
+    </declare-styleable>
+    <declare-styleable name="SeslCollapsingToolbarLayout_Layout">
+        <attr name="layout_collapseMode" />
+        <attr name="layout_collapseParallaxMultiplier" format="float"/>
+        <attr name="layout_isTitleCustom" />
+    </declare-styleable>
+    <declare-styleable name="SeslCoordinatorLayout">
+        <attr name="keylines" format="reference"/>
+        <attr name="statusBarBackground" format="color|reference"/>
+    </declare-styleable>
+    <declare-styleable name="SeslCoordinatorLayout_Layout">
+        <attr name="android:layout_gravity"/>
+        <attr name="layout_behavior" format="string"/>
+        <attr name="layout_anchor" format="reference"/>
+        <attr name="layout_keyline" format="integer"/>
+        <attr name="layout_anchorGravity"/>
+        <attr name="layout_insetEdge" />
+        <attr name="layout_dodgeInsetEdges" />
+    </declare-styleable>
+    <declare-styleable name="SeslRecyclerView">
+        <attr name="layoutManager" format="string" />
+        <attr name="android:orientation" />
+        <attr name="android:descendantFocusability" />
+        <attr name="spanCount" format="integer"/>
+        <attr name="reverseLayout" format="boolean" />
+        <attr name="stackFromEnd" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SeslRecyclerViewFastScroller">
+        <attr name="position">
+            <enum name="aboveThumb" value="2" />
+            <enum name="atThumb" value="1" />
+            <enum name="floating" value="0" />
+        </attr>
+        <attr name="backgroundLeft" format="reference" />
+        <attr name="backgroundRight" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="trackDrawable" format="reference" />
+        <attr name="android:textAppearance" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="android:minWidth" />
+        <attr name="android:minHeight" />
+        <attr name="thumbMinWidth" format="dimension" />
+        <attr name="thumbMinHeight" format="dimension" />
+        <attr name="android:padding" />
+        <attr name="thumbPosition">
+            <enum name="inside" value="1" />
+            <enum name="midpoint" value="0" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SeslSwitch">
+        <attr name="android:thumb" />
+        <attr name="thumbTint" format="color" />
+        <attr name="thumbTintMode" />
+        <attr name="track" format="reference" />
+        <attr name="trackTint" format="color" />
+        <attr name="trackTintMode"/>
+        <attr name="android:textOn" />
+        <attr name="android:textOff" />
+        <attr name="thumbTextPadding" format="dimension" />
+        <attr name="switchTextAppearance" format="reference" />
+        <attr name="switchMinWidth" format="dimension" />
+        <attr name="switchPadding" format="dimension" />
+        <attr name="splitTrack" format="boolean" />
+        <attr name="showText" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SeslTabLayout">
+        <attr name="tabIndicator" format="reference" />
+        <attr name="tabIndicatorColor" format="color"/>
+        <attr name="tabIndicatorHeight" format="dimension"/>
+        <attr name="tabIndicatorFullWidth" format="boolean" />
+        <attr name="tabIndicatorGravity" />
+        <attr name="tabIconTint" format="color" />
+        <attr name="tabIconTintMode" />
+        <attr name="tabContentStart" format="dimension"/>
+        <attr name="tabBackground" format="reference"/>
+        <attr name="tabRippleColor" format="color" />
+        <attr name="tabIndicatorAnimationDuration" format="integer" />
+        <attr name="tabMode" />
+        <attr name="tabGravity" />
+        <attr name="tabInlineLabel" format="boolean" />
+        <attr name="tabUnboundedRipple" format="boolean" />
+        <attr name="tabMinWidth" format="dimension"/>
+        <attr name="tabMaxWidth" format="dimension"/>
+        <attr name="tabTextAppearance" format="reference"/>
+        <attr name="tabTextColor" format="color"/>
+        <attr name="tabSelectedTextColor" format="color"/>
+        <attr name="tabPaddingStart" format="dimension"/>
+        <attr name="tabPaddingTop" format="dimension"/>
+        <attr name="tabPaddingEnd" format="dimension"/>
+        <attr name="tabPaddingBottom" format="dimension"/>
+        <attr name="tabPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SeslProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="android:min" />
+        <attr name="android:max" />
+        <attr name="android:progress" />
+        <attr name="android:secondaryProgress" />
+        <attr name="android:indeterminate" />
+        <attr name="android:indeterminateOnly" />
+        <attr name="android:indeterminateDrawable" />
+        <attr name="android:progressDrawable" />
+        <attr name="android:indeterminateDuration" />
+        <attr name="android:indeterminateBehavior" />
+        <attr name="android:minWidth" />
+        <attr name="android:maxWidth" />
+        <attr name="android:minHeight" />
+        <attr name="android:maxHeight" />
+        <attr name="android:interpolator" />
+        <attr name="animationResolution" format="integer" />
+        <attr name="android:mirrorForRtl" />
+        <attr name="android:progressTint" />
+        <attr name="android:progressTintMode" />
+        <attr name="android:progressBackgroundTint" />
+        <attr name="android:progressBackgroundTintMode" />
+        <attr name="android:secondaryProgressTint" />
+        <attr name="android:secondaryProgressTintMode" />
+        <attr name="android:indeterminateTint" />
+        <attr name="android:indeterminateTintMode" />
+        <attr name="backgroundTint" />
+        <attr name="backgroundTintMode" />
+    </declare-styleable>
+    <declare-styleable name="SeslAbsSeekBar">
+        <attr name="android:thumb" />
+        <attr name="android:thumbTint" />
+        <attr name="android:thumbTintMode" />
+        <attr name="android:thumbOffset" />
+        <attr name="android:splitTrack" />
+        <attr name="tickMark" format="reference" />
+        <attr name="tickMarkTint" format="color" />
+        <attr name="tickMarkTintMode" />
+        <attr name="useDisabledAlpha" />
+        <attr name="seslThumbRadius" format="dimension" />
+        <attr name="seslTrackMaxWidth" format="dimension" />
+        <attr name="seslTrackMinWidth" format="dimension" />
+        <attr name="seslSeekBarMode">
+            <enum name="expand" value="5" />
+            <enum name="expand_vertical" value="6" />
+            <enum name="split" value="4" />
+            <enum name="standard" value="0" />
+            <enum name="vertical" value="3" />
+            <enum name="warning" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AppCompatTheme">
+        <attr name="android:disabledAlpha" />
+    </declare-styleable>
+
+    <declare-styleable name="View">
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="SeslPreference">
+        <attr name="icon" />
+        <attr name="android:icon" />
+        <attr name="key" format="string" />
+        <attr name="android:key" />
+        <attr name="title" />
+        <attr name="android:title" />
+        <attr name="summary" format="string" />
+        <attr name="android:summary" />
+        <attr name="order" format="integer" />
+        <attr name="android:order" />
+        <attr name="fragment" format="string" />
+        <attr name="android:fragment" />
+        <attr name="layout" />
+        <attr name="android:layout" />
+        <attr name="widgetLayout" format="reference" />
+        <attr name="android:widgetLayout" />
+        <attr name="enabled" format="boolean" />
+        <attr name="android:enabled" />
+        <attr name="selectable" format="boolean" />
+        <attr name="android:selectable" />
+        <attr name="dependency" format="string" />
+        <attr name="android:dependency" />
+        <attr name="persistent" format="boolean" />
+        <attr name="android:persistent" />
+        <attr name="defaultValue" format="string|boolean|integer|reference|float" />
+        <attr name="android:defaultValue" />
+        <attr name="shouldDisableView" format="boolean" />
+        <attr name="android:shouldDisableView" />
+        <attr name="allowDividerAbove" format="boolean" />
+        <attr name="allowDividerBelow" format="boolean" />
+        <attr name="singleLineTitle" format="boolean" />
+        <attr name="android:singleLineTitle" />
+        <attr name="iconSpaceReserved" format="boolean" />
+        <attr name="android:iconSpaceReserved" />
+    </declare-styleable>
+    <declare-styleable name="SeslPreferenceCategory">
+        <attr name="roundStroke">
+            <flag name="all" value="0x0000000f" />
+            <flag name="bottom_left" value="0x00000004" />
+            <flag name="bottom_right" value="0x00000008" />
+            <flag name="none" value="0x00000000" />
+            <flag name="top_left" value="0x00000001" />
+            <flag name="top_right" value="0x00000002" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SeslPreferenceFragmentCompat">
+        <attr name="android:layout" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="allowDividerAfterLastItem" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SeslPreferenceGroup">
+        <attr name="orderingFromXml" format="boolean" />
+        <attr name="android:orderingFromXml" />
+    </declare-styleable>
+    <declare-styleable name="SeslPreferenceImageView">
+        <attr name="maxWidth" format="dimension" />
+        <attr name="android:maxWidth" />
+        <attr name="maxHeight" format="dimension" />
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="SeslDialogPreference">
+        <attr name="dialogTitle" format="string" />
+        <attr name="android:dialogTitle" />
+        <attr name="dialogMessage" format="string" />
+        <attr name="android:dialogMessage" />
+        <attr name="dialogIcon" format="reference" />
+        <attr name="android:dialogIcon" />
+        <attr name="positiveButtonText" format="string" />
+        <attr name="android:positiveButtonText" />
+        <attr name="negativeButtonText" format="string" />
+        <attr name="android:negativeButtonText" />
+        <attr name="dialogLayout" format="reference" />
+        <attr name="android:dialogLayout" />
+    </declare-styleable>
+    <declare-styleable name="SeslCheckBoxPreference">
+        <attr name="summaryOn" format="string" />
+        <attr name="android:summaryOn" />
+        <attr name="summaryOff" format="string" />
+        <attr name="android:summaryOff" />
+        <attr name="disableDependentsState" format="boolean" />
+        <attr name="android:disableDependentsState" />
+    </declare-styleable>
+    <declare-styleable name="SeslListPreference">
+        <attr name="entries" format="reference" />
+        <attr name="android:entries" />
+        <attr name="entryValues" format="reference" />
+        <attr name="android:entryValues" />
+    </declare-styleable>
+    <declare-styleable name="SeslMultiSelectListPreference">
+        <attr name="entries" />
+        <attr name="android:entries" />
+        <attr name="entryValues" />
+        <attr name="android:entryValues" />
+    </declare-styleable>
+
+    <declare-styleable name="SeslSeekBarPreference">
+        <attr name="min" />
+        <attr name="android:max"/>
+        <attr name="android:layout" />
+        <attr name="seekBarIncrement" format="integer" />
+        <attr name="adjustable" format="boolean" />
+        <attr name="showSeekBarValue" format="boolean" />
+        <attr name="updatesContinuously" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SeslSwitchPreference">
+        <attr name="summaryOn" />
+        <attr name="android:summaryOn" />
+        <attr name="summaryOff" />
+        <attr name="android:summaryOff" />
+        <attr name="switchTextOn" format="string" />
+        <attr name="android:switchTextOn" />
+        <attr name="switchTextOff" format="string" />
+        <attr name="android:switchTextOff" />
+        <attr name="disableDependentsState" />
+        <attr name="android:disableDependentsState" />
+    </declare-styleable>
+    <declare-styleable name="SeslSwitchPreferenceCompat">
+        <attr name="summaryOn" />
+        <attr name="android:summaryOn" />
+        <attr name="summaryOff" />
+        <attr name="android:summaryOff" />
+        <attr name="switchTextOn" />
+        <attr name="android:switchTextOn" />
+        <attr name="switchTextOff" />
+        <attr name="android:switchTextOff" />
+        <attr name="disableDependentsState" />
+        <attr name="android:disableDependentsState" />
+    </declare-styleable>
+
+    <declare-styleable name="SeslAlertDialog">
+        <attr name="android:layout" />
+        <attr name="buttonIconDimen" format="dimension" />
+        <attr name="fullDark" format="reference|color" />
+        <attr name="topDark" format="reference|color" />
+        <attr name="centerDark" format="reference|color" />
+        <attr name="bottomDark" format="reference|color" />
+        <attr name="fullBright" format="reference|color" />
+        <attr name="topBright" format="reference|color" />
+        <attr name="centerBright" format="reference|color" />
+        <attr name="bottomBright" format="reference|color" />
+        <attr name="bottomMedium" format="reference|color" />
+        <attr name="centerMedium" format="reference|color" />
+        <attr name="layout" />
+        <attr name="buttonPanelSideLayout" format="reference" />
+        <attr name="listLayout" format="reference" />
+        <attr name="multiChoiceItemLayout" format="reference" />
+        <attr name="singleChoiceItemLayout" format="reference" />
+        <attr name="listItemLayout" format="reference" />
+        <attr name="progressLayout" />
+        <attr name="horizontalProgressLayout" />
+        <attr name="showTitle" format="boolean" />
+        <attr name="needsDefaultBackgrounds" format="boolean" />
+        <attr name="controllerType">
+            <enum name="normal" value="0" />
+            <enum name="micro" value="1" />
+        </attr>
+        <attr name="selectionScrollOffset" format="dimension" />
+    </declare-styleable>
+
+</resources>
