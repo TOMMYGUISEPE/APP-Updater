@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnOTAInfo>
+  <RomName>TukiRom</RomName>
+  <VersionName>TukiOS</VersionName>
+  <BuildNumber type="integer">20240225</BuildNumber>
+  <DownloadURL>https://tu4wkl.d309044.eu/roms/TukiOS_S21FE_V1.0.zip</DownloadURL>
+  <AndroidVer>14</AndroidVer>
+  <OneUIVer>6.0</OneUIVer>
+  <CheckMD5>0542b0337efdea06ddb071f05e1e2ce5</CheckMD5>
+  <FileSize type="long">480000000</FileSize>
+  <WebsiteURL>https://forum.xda-developers.com/apps/magisk/dev-magisk-canary-channel-bleeding-edge-t3839337</WebsiteURL>
+  <ChangelogHeader>https://raw.githubusercontent.com/pachdomenic/TukiRom-OTA/manifest/changelogheader1100.png</ChangelogHeader>
+  <ChangelogURL>https://raw.githubusercontent.com/pachdomenic/TukiRom-OTA/manifest/oneui6/changelog.txt</ChangelogURL>
+</OnOTAInfo>
