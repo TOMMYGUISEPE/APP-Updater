@@ -7,7 +7,7 @@
   <AndroidVer>14</AndroidVer>
   <OneUIVer>6.0</OneUIVer>
   <CheckMD5>4b388ccf1ae67465a4b185e1f2e48a50</CheckMD5>
-  <FileSize type="long">3083015308</FileSize>
+  <FileSize type="nop">3083015308</FileSize>
   <WebsiteURL>https://forum.xda-developers.com/apps/magisk/dev-magisk-canary-channel-bleeding-edge-t3839337</WebsiteURL>
   <ChangelogHeader>https://raw.githubusercontent.com/TOMMYGUISEPE/APP-Updater/manifest/banner.png</ChangelogHeader>
   <ChangelogURL>https://raw.githubusercontent.com/TOMMYGUISEPE/APP-Updater/manifest/changelog.txt</ChangelogURL>
