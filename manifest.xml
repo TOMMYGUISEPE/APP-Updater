@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OnOTAInfo>
   <RomName>LichRom</RomName>
-  <VersionName>Fresh</VersionName>
-  <BuildNumber type="integer">20240313</BuildNumber>
-  <DownloadURL>https://download1526.mediafire.com/acjkrt4k57ngOTeR6lPoFIExXPvIOKbFYfJg167qGToEJdli_DlYfM6UG-gvv62Gw7PRiTRhMZVpeTjNcVb_75uFR8QXfSm2pJN9u4VPhQMpbX-17FsW7mlu64UrhV2iRz9N6hKPMv4K8U6jNVezrYoqO8vWuu-Ira32ka-bytXstw/mtas1h4u9m5a2r3/A54_LICH-ROM.zip</DownloadURL>
+  <VersionName>Oreo</VersionName>
+  <BuildNumber type="integer">20240312</BuildNumber>
+  <DownloadURL>https://download1526.mediafire.com/ywjwy886cs5g3pyJfWZtnnLDKMKGI8ultz10KU7rO_6Fkup7v5r22uSJjar6CKHDu6iWFiNhT96W2hYFJKfH5UtX7raDlKYzFoguRzdntoXOcMv-c5tZiVcOLsPCZRXPTYLqRyzTvCkJXPByFchGiV_xrnIkThSXKci5PNsqoIJs4g/mtas1h4u9m5a2r3/A54LICH-ROM.zip</DownloadURL>
   <AndroidVer>14</AndroidVer>
   <OneUIVer>6.0</OneUIVer>
-  <CheckMD5>4b388ccf1ae67465a4b185e1f2e48a50</CheckMD5>
-  <FileSize type="long">3200000000</FileSize>
+  <CheckMD5>0b388ccf1ae67465a4b185e1f2e48a50</CheckMD5>
+  <FileSize type="long">3300000000</FileSize>
   <WebsiteURL>https://forum.xda-developers.com/apps/magisk/dev-magisk-canary-channel-bleeding-edge-t3839337</WebsiteURL>
   <ChangelogHeader>https://raw.githubusercontent.com/TOMMYGUISEPE/APP-Updater/manifest/banner.png</ChangelogHeader>
   <ChangelogURL>https://raw.githubusercontent.com/TOMMYGUISEPE/APP-Updater/manifest/changelog.txt</ChangelogURL>
