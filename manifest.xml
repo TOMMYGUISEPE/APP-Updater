@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnOTAInfo>
+  <RomName>LichRom</RomName>
+  <VersionName>Chocolate</VersionName>
+  <BuildNumber type="integer">20240312</BuildNumber>
+  <DownloadURL>https://download1526.mediafire.com/al38lna78xqgE1yOlgs8iw0GiwNUa6jOMyNHr__J4QEG5z9lImrsHsPFlT2h0zGvMdyWquwAftTwaNcSRzCTzF2Jy1Bc7LZI_hJHWQUlWopjyoOHEZkjrlqzuttHBZUrFMwyAabiq3XpiqXfgm_1eqGMAdzJlpm4qjkRR74fG272ug/mtas1h4u9m5a2r3/A54LICH-ROM.zip</DownloadURL>
+  <AndroidVer>14</AndroidVer>
+  <OneUIVer>6.0</OneUIVer>
+  <CheckMD5>40b388ccf1ae67465a4b185e1f2e48a50</CheckMD5>
+  <FileSize type="long">3300000000</FileSize>
+  <WebsiteURL>https://forum.xda-developers.com/apps/magisk/dev-magisk-canary-channel-bleeding-edge-t3839337</WebsiteURL>
+  <ChangelogHeader>https://raw.githubusercontent.com/TOMMYGUISEPE/APP-Updater/manifest/banner.png</ChangelogHeader>
+  <ChangelogURL>https://raw.githubusercontent.com/TOMMYGUISEPE/APP-Updater/manifest/changelog.txt</ChangelogURL>
+</OnOTAInfo>
