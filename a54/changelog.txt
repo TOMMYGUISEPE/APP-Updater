@@ -7,3 +7,4 @@ Fix motion smoothness
 Added fix on the smart view and samsung internet
 Faster animations
 Added portrait effect and faster oneui home
+a54
